@@ -1,0 +1,85 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 41, 41);
+    font-family: 'SF Pro Display', sans-serif;
+}
+.container{
+    margin-top: 128px;
+    margin-left: 128px ;
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    border: 8px solid #F44336;
+}
+.image img{
+   height: 567px;
+   width: 950px;
+}
+.text{
+    margin-left: 32px ;
+}
+.result{
+
+    width: 240px;
+    height: 172px;
+    border-radius: 8px;
+    border: 1px solid #979797;
+    margin-bottom: 32px;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+.result h1{
+    color: #F44336;
+    font-size: 96px;
+    line-height: 112px;
+    font-weight: 500;  
+}
+.result h4{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.error{
+    position: absolute;
+    width: 240px;
+    height: 363px;
+    border-radius: 8px;
+    border: 1px solid #979797;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+.error h3{
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 36px;
+    color: white;
+}
+.error_list{
+    margin-top: 40px ;
+}
+.error_extra{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #2FA7DC;
+}
+.error_missing{
+    margin-top: 24px ;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #BA68C8
+}
+.error_cross{
+    margin-top: 24px ;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #7986CB;
+}
